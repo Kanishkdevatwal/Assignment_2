@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  5 FEB 2024 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  5 FEB 2024 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1373,13 +1373,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-(./tables/TABLE1.tex) (./tables/TABLE2.tex) [1{/usr/local/texlive/2023/texmf-va
-r/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/
-enc/dvips/base/8r.enc}
+(./tables/TABLE1.tex) (./tables/TABLE2.tex)
+
+LaTeX Warning: Reference `tab:10.5.4.2' on page 1 undefined on input line 120.
+
+
+LaTeX Warning: Reference `tab:10.5.4.2' on page 1 undefined on input line 120.
+
+[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
+ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-<figs/fig1.png, id=44, 462.528pt x 346.896pt>
+<figs/fig1.png, id=42, 462.528pt x 346.896pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
 Package pdftex.def Info: figs/fig1.png  used on input line 125.
@@ -1387,6 +1393,12 @@ Package pdftex.def Info: figs/fig1.png  used on input line 125.
  [2
 
  <./figs/fig1.png>] (./Discrete.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Discrete.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1406,10 +1418,10 @@ texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Discrete.pdf (2 pages, 71174 bytes).
+Output written on Discrete.pdf (2 pages, 71918 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  26 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
