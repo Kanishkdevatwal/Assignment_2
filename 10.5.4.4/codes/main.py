@@ -9,16 +9,16 @@ def y_n(n):
     return np.loadtxt(file_path_y)[max(0, n):min(n + 1, len(np.loadtxt(file_path_y)))]
 
 # Generate n values from 0 to 48
-n_values = np.arange(0, 49)
-y_values = np.array([y_n(n) for n in n_values])
+n = np.arange(0, 48)  
+y = np.array([y_n(n + 1) for n in n]) 
 
 # Plot the graph for y(n)
-stem = plt.stem(n_values, y_values, markerfmt='o', linefmt='b-', basefmt='r-')
+stem = plt.stem(n, y, markerfmt='o', linefmt='b-', basefmt='r-')
 
-highlighted_points = [34]
+highlighted_points = [34] 
 highlighted_colors = ['r']  
 for point, color in zip(highlighted_points, highlighted_colors):
-    plt.plot(point, y_values[n_values == point], marker='o', markersize=8, color=color, linestyle='None', label=f'y({point})')
+    plt.plot([point], [y[point]], marker='o', markersize=8, color=color, linestyle='None', label=f'y({point})')
 
 plt.title('Terms of y(n)')
 plt.xlabel('n')
