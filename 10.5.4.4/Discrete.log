@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  11 FEB 2024 10:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  11 FEB 2024 18:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1373,16 +1373,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
-(./tables/TABLE1.tex) (./tables/TABLE2.tex) [1{/usr/local/texlive/2023/texmf-va
-r/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/
-enc/dvips/base/8r.enc}
+(./tables/TABLE1.tex) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-<figs/fig1.png, id=44, 462.528pt x 346.896pt>
+<figs/fig1.png, id=41, 462.528pt x 346.896pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 125.
+Package pdftex.def Info: figs/fig1.png  used on input line 118.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
  [2
 
@@ -1391,13 +1390,13 @@ Package rerunfilecheck Info: File `Discrete.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31773 strings out of 476025
- 627898 string characters out of 5790018
- 1895388 words of memory out of 5000000
- 51520 multiletter control sequences out of 15000+600000
- 581024 words of font info for 173 fonts, out of 8000000 for 9000
+ 31767 strings out of 476025
+ 627779 string characters out of 5790018
+ 1892388 words of memory out of 5000000
+ 51517 multiletter control sequences out of 15000+600000
+ 582340 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,96p,1176b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,96p,1176b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -1406,10 +1405,10 @@ texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Discrete.pdf (2 pages, 71086 bytes).
+Output written on Discrete.pdf (2 pages, 68398 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 26 named destinations out of 1000 (max. 500000)
+ 90 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
