@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int n;
+    int y = 0;
+    int n = 1;
     FILE *outputFile;
 
     // Open the file for writing
@@ -13,9 +14,10 @@ int main() {
     }
 
     // Print the sequence values to the console and save them to the file
-    for (n = 0; n < 49; ++n) {
-        printf("%d \n", (n+1)*(n+2)/2);
-        fprintf(outputFile, "%d \n", (n+1)*(n+2)/2);
+    for (n = 1; n <= 49; ++n) {
+        y=y+n;
+        printf("%d \n",y);
+        fprintf(outputFile, "%d \n", y);
     }
 
     // Close the file
