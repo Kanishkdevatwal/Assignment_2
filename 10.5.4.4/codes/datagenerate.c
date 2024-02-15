@@ -2,7 +2,9 @@
 
 int main() {
     int y = 0;
-    int n = 1;
+    int n;
+    int y1=0;
+    int y2=0;
     FILE *outputFile;
 
     // Open the file for writing
@@ -23,7 +25,19 @@ int main() {
     // Close the file
     fclose(outputFile);
 
-    printf("Output has been saved to 'values.dat'.\n");
+    for(n=1;n<=34;n++){
+        y1=y1+n;
+    }
+    for(n=36;n<=49;n++){
+        y2=y2+n;
+    }
+
+    if(y1==y2){
+        printf("%d=%d\n",y1,y2);
+        printf("x=35, Hence Proved");
+
+    }
+
 
     return 0;
 }
