@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  13 FEB 2024 14:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.7)  15 FEB 2024 19:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -23,6 +23,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
+** ATTENTION: Single column mode is not typically used with IEEE publications.
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen143
@@ -1339,67 +1340,75 @@ Package hyperref Info: Link coloring OFF on input line 44.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
+9.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
+9.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
+9.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
+9.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-0.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
+9.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-(./tables/TABLE1.tex)
-Overfull \hbox (5.00417pt too wide) in paragraph at lines 1--69
- [][] 
+(./tables/TABLE1.tex) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
  []
 
-<figs/fig1.png, id=8, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[2]
+<figs/fig1.png, id=48, 462.528pt x 346.896pt>
 File: figs/fig1.png Graphic file (type png)
 <use figs/fig1.png>
-Package pdftex.def Info: figs/fig1.png  used on input line 100.
-(pdftex.def)             Requested size: 252.0pt x 189.00427pt.
-[1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
-ocal/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
- <./figs/fig1.png>]
-(./Discrete.aux)
+Package pdftex.def Info: figs/fig1.png  used on input line 160.
+(pdftex.def)             Requested size: 284.52756pt x 213.40593pt.
+ [3 <./figs/fig1.png>] (./Discrete.aux)
 Package rerunfilecheck Info: File `Discrete.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31754 strings out of 476025
- 627632 string characters out of 5790018
- 1875388 words of memory out of 5000000
+ 31779 strings out of 476025
+ 627943 string characters out of 5790018
+ 1870388 words of memory out of 5000000
  51517 multiletter control sequences out of 15000+600000
  581024 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,96p,1176b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,96p,1176b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local
 /texlive/2023/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texliv
@@ -1408,10 +1417,10 @@ texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/texlive/2023/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on Discrete.pdf (1 page, 63373 bytes).
+Output written on Discrete.pdf (3 pages, 74760 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 38 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
