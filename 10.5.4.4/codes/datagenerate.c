@@ -32,6 +32,9 @@ int main() {
         y2=y2+n;
     }
 
+    printf("y1 = %d\n",y1);
+    printf("y2 = %d\n",y2);
+
     if(y1==y2){
         printf("%d=%d\n",y1,y2);
         printf("x=35, Hence Proved");
